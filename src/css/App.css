@@ -1,0 +1,117 @@
+/* ---------- HOMEPAGE ---------- */
+
+/* Removes the dots from the list */
+li {
+    list-style-type: none;
+}
+
+/* Changes the color of the links in navbar when it's active */
+.nav-link.active{
+    color: #5F9EA0 !important;
+}
+
+/* Changes the color of the links in navbar when it's hover over */
+.navbar-brand:hover{
+    color: #5F9EA0 !important;
+}
+
+/* Changes the color of button when it's active */
+.btn-primary{
+    background-color: #5F9EA0;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+
+/* Changes the color of button when it's hover */
+.btn-primary:hover{
+    background-color: #343a40;
+    color: white;
+}
+
+/* Changes the width/height of the search box */
+.Search--Box{
+    height: 40px;
+    width: 500px;
+    margin-left: 35px;
+}
+
+/* Changes button for search box */
+.Search--Button{
+    margin-left: 15px;
+}
+
+/* Changes the row around game list on home page */
+.row{
+    margin-top: 50px;
+}
+
+/* Changes the row around game list on home page */
+li.GameItem.column{
+    padding-bottom: 30px;
+}
+
+
+/* ---------- HOMEPAGE API LIST ---------- */
+.game--image{
+    display: inline-block;
+    background-color: blue;
+    height: 150px;
+    width: 250px;
+    margin-right: 15px;
+}
+
+.game--name{
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    color: #5F9EA0;
+    padding-top: 10px;
+}
+
+.game--rating{
+    display: block;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+/* Changes the color of the homepage game button when it's active */
+.game--button{
+    background-color: #5F9EA0;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+/* Changes the color of the homepage game button when it's hovered */
+.game--button:hover{
+    background-color: #343a40;
+    color: white;
+}
+
+/* ---------- CONTACTPAGE ---------- */
+
+/* Changes the contact form heading */
+.contactheading{
+    color: #343a40;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+/* Changes the form label of contact form font */
+label{
+      font-weight: 500;
+      font-size: 16px;
+}
+
+/* Changes the contact form errors */
+p{
+    color: #5F9EA0;
+    font-size: 15px;
+    padding-top: 5px;
+}
